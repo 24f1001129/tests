@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Quiz</title></head>
+<body>
+  <div id="result"></div>
+  <script>
+    document.querySelector("#result").innerHTML = atob(`QSBidXR0b24gcmV2ZWFscyBhIGR5bmFtaWMgdmFsdWUgYWZ0ZXIgYmVpbmcgY2xpY2tlZC4gVHJpZ2dlciB0aGUgYWN0aW9uIGFuZCByZWFkIHRoZSBudW1iZXIgdGhhdCBhcHBlYXJzLgoKUG9zdCB5b3VyIGFuc3dlciB0byBodHRwOi8vbG9jYWxob3N0OjgwMDEvc3VibWl0IHdpdGggdGhpcyBKU09OIHBheWxvYWQ6Cgp7CiAgImVtYWlsIjogInlvdXItZW1haWwiLAogICJzZWNyZXQiOiAieW91ciBzZWNyZXQiLAogICJ1cmwiOiAiaHR0cHM6Ly9leGFtcGxlLmNvbS9zdWJtaXQvd2ViLTEtMiIsCiAgImFuc3dlciI6IDx2YWx1ZT4gIC8vIHRoZSBjb3JyZWN0IGFuc3dlcgp9`);
+  </script>
+  <button id="reveal">Reveal</button>
+  <div id="slot"></div>
+  <script>
+    // Dynamic fetch stub - points to data.json which will be generated
+    document.getElementById('reveal').addEventListener('click', async () => {
+      const r = await fetch('./dynamic-data.json');
+      const j = await r.json();
+      document.getElementById('slot').innerText = j.reveal;
+    });
+  </script>
+
+</body>
+</html>
+
