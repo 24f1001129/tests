@@ -26,7 +26,7 @@ QUIZ_ANSWERS = {
   "https://24f1001129.github.io/tests/cleansing/test_3/index.html": "1234567.89",
   "https://24f1001129.github.io/tests/cleansing/test_4/index.html": "50.000",
   "https://24f1001129.github.io/tests/processing/test_1/index.html": "7000",
-  "https://24f1001129.github.io/tests/processing/test_2/index.html": "580",
+  "https://24f1001129.github.io/tests/processing/test_2/index.html": "3387",
   "https://24f1001129.github.io/tests/processing/test_3/index.html": "4321",
   "https://24f1001129.github.io/tests/processing/test_4/index.html": "123.5",
   "https://24f1001129.github.io/tests/visualization/test_1/index.html": "700",

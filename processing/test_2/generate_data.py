@@ -20,4 +20,4 @@ for i in range(size):
 
 df = pd.DataFrame(rows)
 df.to_csv(out / "dates.csv", index=False)
-print("dates.csv generated (20000 rows). Expected Mondays in 2024: 580")
+print("dates.csv generated (20000 rows). Expected Mondays in 2024: 3387")
