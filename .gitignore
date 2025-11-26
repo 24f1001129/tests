@@ -4,3 +4,4 @@ __pycache__/
 *.pyd
 deployment_guide.md
 answers.json
+how_to_start.md

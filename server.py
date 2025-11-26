@@ -4,9 +4,13 @@ from threading import Thread
 
 app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return "LLM Eval Server is running."
+
 TEST_INDEX_URL = "https://24f1001129.github.io/tests/"
 DEFAULT_TIMEOUT = 180
-SERVER_BASE_URL = "http://localhost:5000"
+SERVER_BASE_URL = "https://llm-eval-server.onrender.com"
 
 QUIZ_ANSWERS = {
   "https://24f1001129.github.io/tests/analysis/test_1/index.html": "42.500",
