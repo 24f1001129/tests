@@ -2,10 +2,9 @@
 <html>
 <head><title>Quiz</title></head>
 <body>
-  <div id="result"></div>
+  <pre id="result"></pre>
   <script>
-    document.querySelector("#result").innerHTML = atob(`RG93bmxvYWQgLi90cmFucy5jc3YuIERlY29kZSBiYXNlNjQgc3RyaW5ncyBpbiBjb2x1bW4gJ2VuY29kZWQnLCBjb252ZXJ0IHRvIGludGVnZXIsIGZpbHRlciBvdXQgaW52YWxpZCByb3dzLCB0aGVuIHN1bSBpbnRlZ2VycyBkaXZpc2libGUgYnkgNyBhbmQgcmV0dXJuIHRoYXQgc3VtLgoKUG9zdCB5b3VyIGFuc3dlciB0byBodHRwOi8vbG9jYWxob3N0OjgwMDEvc3VibWl0IHdpdGggdGhpcyBKU09OIHBheWxvYWQ6Cgp7CiAgImVtYWlsIjogInlvdXItZW1haWwiLAogICJzZWNyZXQiOiAieW91ciBzZWNyZXQiLAogICJ1cmwiOiAiaHR0cHM6Ly9leGFtcGxlLmNvbS9zdWJtaXQvcHJvYy0xLTEiLAogICJhbnN3ZXIiOiA8dmFsdWU+ICAvLyB0aGUgY29ycmVjdCBhbnN3ZXIKfQ==`);
-  </script>
+    document.querySelector("#result").textContent = atob(`RG93bmxvYWQgLi90cmFucy5jc3YuIERlY29kZSBiYXNlNjQgc3RyaW5ncyBpbiBjb2x1bW4gJ2VuY29kZWQnLCBjb252ZXJ0IHRvIGludGVnZXIsIGZpbHRlciBvdXQgaW52YWxpZCByb3dzLCB0aGVuIHN1bSBpbnRlZ2VycyBkaXZpc2libGUgYnkgNyBhbmQgcmV0dXJuIHRoYXQgc3VtLgoKUG9zdCB5b3VyIGFuc3dlciB0byBodHRwOi8vbG9jYWxob3N0OjgwMDEvc3VibWl0IHdpdGggdGhpcyBKU09OIHBheWxvYWQ6Cgp7CiAgImVtYWlsIjogInlvdXItZW1haWwiLAogICJzZWNyZXQiOiAieW91ciBzZWNyZXQiLAogICJ1cmwiOiAiaHR0cHM6Ly9leGFtcGxlLmNvbS9zdWJtaXQvcHJvYy0xLTEiLAogICJhbnN3ZXIiOiA8dmFsdWU+ICAvLyB0aGUgY29ycmVjdCBhbnN3ZXIKfQ==`);
   <a href="./trans.csv">trans.csv</a>
 
 </body>
