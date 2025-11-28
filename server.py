@@ -13,30 +13,14 @@ DEFAULT_TIMEOUT = 180
 SERVER_BASE_URL = "https://llm-eval-server.onrender.com"
 
 QUIZ_ANSWERS = {
-  "https://24f1001129.github.io/tests/analysis/test_1/index.html": "42.500",
-  "https://24f1001129.github.io/tests/analysis/test_2/index.html": "3600",
-  "https://24f1001129.github.io/tests/analysis/test_3/index.html": "1234",
-  "https://24f1001129.github.io/tests/analysis/test_4/index.html": "55.1234",
-  "https://24f1001129.github.io/tests/api_sourcing/test_1/index.html": "100000",
-  "https://24f1001129.github.io/tests/api_sourcing/test_2/index.html": "98765",
-  "https://24f1001129.github.io/tests/api_sourcing/test_3/index.html": "250.0",
-  "https://24f1001129.github.io/tests/api_sourcing/test_4/index.html": "END-TOKEN-77",
-  "https://24f1001129.github.io/tests/cleansing/test_1/index.html": "XF-834",
-  "https://24f1001129.github.io/tests/cleansing/test_2/index.html": "REF-100001",
-  "https://24f1001129.github.io/tests/cleansing/test_3/index.html": "1234567.89",
-  "https://24f1001129.github.io/tests/cleansing/test_4/index.html": "50.000",
-  "https://24f1001129.github.io/tests/processing/test_1/index.html": "7000",
-  "https://24f1001129.github.io/tests/processing/test_2/index.html": "3387",
-  "https://24f1001129.github.io/tests/processing/test_3/index.html": "4321",
-  "https://24f1001129.github.io/tests/processing/test_4/index.html": "123.5",
-  "https://24f1001129.github.io/tests/visualization/test_1/index.html": "700",
-  "https://24f1001129.github.io/tests/visualization/test_2/index.html": "1.0",
-  "https://24f1001129.github.io/tests/visualization/test_3/index.html": "B",
-  "https://24f1001129.github.io/tests/visualization/test_4/index.html": "12%",
   "https://24f1001129.github.io/tests/web_scraping/test_1/index.html": "TOKEN-12345",
-  "https://24f1001129.github.io/tests/web_scraping/test_2/index.html": "314159",
   "https://24f1001129.github.io/tests/web_scraping/test_3/index.html": "WS-300",
-  "https://24f1001129.github.io/tests/web_scraping/test_4/index.html": "5000"
+  "https://24f1001129.github.io/tests/cleansing/test_1/index.html": "XF-834",
+  "https://24f1001129.github.io/tests/visualization/test_3/index.html": "B",
+  "https://24f1001129.github.io/tests/cleansing/test_4/index.html": "50.000",
+  "https://24f1001129.github.io/tests/api_sourcing/test_3/index.html": "250.0",
+  "https://24f1001129.github.io/tests/visualization/test_4/index.html": "12%",
+  "https://24f1001129.github.io/tests/web_scraping/test_2/index.html": "314159"
 }
 
 quizzes = []
